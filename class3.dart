@@ -39,11 +39,28 @@ void main() {
   } else {
     print("num6 is greater then num5"); //else{}
   }
-    // number is even or odd
+  // number is even or odd
   int number = 22;
   if (number % 2 == 0) {
     print("number is even");
   } else {
     print("number is 0dd");
+  }
+  int num7 = 35;
+  if (num7 % 5 == 0 || num7 % 7 == 0) {
+
+
+
+    if (num7 % 5 == 0 && num7 %7==0) {
+      print("num is divisabel by both");
+    } else if (num7 % 7 == 0) {
+      print('number is divisabel by 7');
+    } else {
+      print("number is divisabel by 5");
+    }
+ } 
+ 
+ else {
+    print("number is not divisabel by 5 or 7");
   }
 }
