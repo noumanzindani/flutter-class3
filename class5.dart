@@ -1,5 +1,7 @@
 void main() {
-  // List studentrecord = ['bilal', 'taber'];
+
+
+// List studentrecord = ['bilal', 'taber'];
 //   print(studentrecord.values);
 //   print(studentrecord.keys);
 //   print(studentrecord["name"]);
@@ -117,4 +119,8 @@ void main() {
   // var fruit = {1: "appel", 2: "banana", 3: "mango"};
 
 
+  // var fruit = {1: "appel", 2: "banana", 3: "cherry", 4: "Orange"};
+  // fruit.forEach((k, v) {
+  //   print(" $k achs $v or kha ho");
+  // });
 }
